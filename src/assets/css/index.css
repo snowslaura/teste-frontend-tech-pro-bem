@@ -1,6 +1,7 @@
 body {
   background-color: #F18A88;
   font-family: 'Indie Flower', cursive;
+  box-sizing: border-box;
 }
 
 

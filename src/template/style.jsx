@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Main = styled.div`
     width: 100vw;
-    height: 100vh;
+    /* height: 100%; */
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -18,11 +18,12 @@ export const Title = styled.div`
     justify-content: center;
     align-items: center;
     width: 100vw;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
 
     @media(max-width: 600px) {
         font-size: 50px;
+        margin-bottom: 0;
     }
 `
 
@@ -32,12 +33,12 @@ export const Middle = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 80vw;
-    height: 80vh;
+    margin-top: 20px;
     
 
     @media(max-width: 600px) {
         flex-direction: column;
-        margin-top:20px;
+        margin-top: 0;
     }
 
     

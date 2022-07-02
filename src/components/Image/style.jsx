@@ -15,6 +15,7 @@ export const Main = styled.div`
     @media(max-width: 600px) {
         max-width: 50%;
         min-width: 50%;
+        height: 250px;
     }
 
     @media(max-width: 360px) {
