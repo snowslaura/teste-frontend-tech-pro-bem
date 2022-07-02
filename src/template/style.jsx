@@ -19,6 +19,7 @@ export const Title = styled.div`
     align-items: center;
     width: 100vw;
     margin-top: 50px;
+    margin-bottom: 30px;
 
     @media(max-width: 600px) {
         font-size: 50px;
