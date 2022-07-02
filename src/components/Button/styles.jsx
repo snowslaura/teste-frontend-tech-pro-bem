@@ -18,4 +18,5 @@ export const Content = styled.button`
     font-family: 'Indie Flower', cursive;   
     color: #00916E;
     margin-bottom: 10px;
+    cursor:pointer;
 `

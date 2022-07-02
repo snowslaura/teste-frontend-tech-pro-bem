@@ -17,6 +17,8 @@ export const Pet = styled.img`
     border-radius: 38px;
     width: 90%;
     height: 70%;
-    background-color: red;
+    background-color: #EFEFEF;
     margin: 10px;
+    object-fit: cover;
+
 `

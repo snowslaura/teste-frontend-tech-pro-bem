@@ -1,13 +1,15 @@
 import {Main,Pet} from "./style"
 import Button from "../Button/Button";
+import { useState } from "react";
 
-function Image({pet}){
+function Image({pet,url}){
 
-
+    const [randomNumber,setRandomNumber] = useState(1)   
+    
     return(
         <Main>
-            <Pet/>
-            <Button pet={pet}/>
+            <Pet src={`${url}?image=${randomNumber}`}/>
+            <Button  setRandomNumber={setRandomNumber} pet={pet}/>
         </Main>        
     )
 }

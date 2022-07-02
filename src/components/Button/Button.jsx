@@ -1,21 +1,15 @@
 import {Content} from "./styles"
-import axios from "axios"
 
-
-function Button({pet}){
+function Button({setRandomNumber, pet}){  
 
     function fetchPets(){
-        if(pet==="cat"){
-            try{
-                const {data} =  await axios.get("")
-            }catch(e){
-
-            }
-        }
-    }
+      const number = parseInt(Math.random()*30);
+      setRandomNumber(number)
+      console.log(pet,number)
+    } 
 
     return(
-        <Content onCLick={fetchPets(pet)}>
+        <Content onClick={fetchPets}>
             <p >Get a {pet}</p> 
         </Content>
     )
