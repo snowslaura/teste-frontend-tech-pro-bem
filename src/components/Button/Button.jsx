@@ -3,9 +3,8 @@ import {Content} from "./styles"
 function Button({setRandomNumber, pet}){  
 
     function fetchPets(){
-      const number = parseInt(Math.random()*30);
+      const number = parseInt(Math.random()*50);
       setRandomNumber(number)
-      console.log(pet,number)
     } 
 
     return(

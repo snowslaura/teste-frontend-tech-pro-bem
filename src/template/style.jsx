@@ -12,9 +12,11 @@ export const Main = styled.div`
 export const Title = styled.div`
     font-family: 'Indie Flower', cursive;
     color:#37916E;
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 900;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100vw;
     margin-top: 50px;
 `
@@ -26,4 +28,10 @@ export const Middle = styled.div`
     align-items: center;
     width: 80vw;
     height: 80vh;
+
+    @media(max-width: 600px) {
+        flex-direction: column;
+    }
+
+    
 `

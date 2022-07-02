@@ -12,11 +12,16 @@ export const Content = styled.button`
     border-radius: 48px;
     border:none;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 25px;
     line-height: 29px; 
     font-family: 'Indie Flower', cursive;   
     color: #00916E;
     margin-bottom: 10px;
     cursor:pointer;
+    @media(max-width: 400px) {
+        font-size: 15px;
+        line-height: 15px; 
+    }
+   
 `

@@ -11,6 +11,16 @@ export const Main = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
+    @media(max-width: 600px) {
+        max-width: 50%;
+        min-width: 50%;
+    }
+
+    @media(max-width: 360px) {
+        max-width: 100%;
+        min-width: 100%;
+    }
 `
 
 export const Pet = styled.img`
