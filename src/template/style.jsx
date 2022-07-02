@@ -19,6 +19,10 @@ export const Title = styled.div`
     align-items: center;
     width: 100vw;
     margin-top: 50px;
+
+    @media(max-width: 600px) {
+        font-size: 50px;
+    }
 `
 
 export const Middle = styled.div`
@@ -28,9 +32,11 @@ export const Middle = styled.div`
     align-items: center;
     width: 80vw;
     height: 80vh;
+    
 
     @media(max-width: 600px) {
         flex-direction: column;
+        margin-top:20px;
     }
 
     
